@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script language=javascript type="text/javascript">
+function verificarSenhas(){
+if (document.form.senha1.value == document.form.senha2.value)
+{alert ("As duas senhas conferem")
+}
+ 
+else{
+alert ("As duas senhas não conferem")
+}
+}
+</script>
+    </head>
+    <body>
+        <div class="senha">
+            <div class="senha-login">
+                <h1 class="ls-login">Login</h1>
+                     <form name="form">
+                       <div class="redefinir-senha">
+                        Senha:<input required="required" type="password" name="senha1" id="senha-esq-red" >
+                        <br>
+                        Confirme a Senha:<input required="required" type="password" name="senha2" id="senha-esq">
+                        <br>
+                        <input type="button" onClick="verificarSenhas()" value="enviar" id="enviar_esqueceu">
+                        </div>
+
+                        <p class="link_login_cad">  
+                            <a href="login.html">Login </a>
+                        </p>
+
+                       
+                        
+                         <p id="logo"><img src="img/logo.png" class="logo" alt="logo_transporte"></p> 
+
+                    </form>
+           </div>
+        </div>
+    </body>
+
+</html>

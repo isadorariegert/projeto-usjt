@@ -35,3 +35,306 @@ input {
 #complemento {
 	width: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+/* pagina login */
+
+.login {
+    background-color: #A9D18E;
+    border-width: 2px;
+    border-style:solid;
+    margin-top: 40px;
+    margin-right: 500px;
+    margin-bottom: 300px;
+    margin-left: 500px; 
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 90px    
+}
+
+.ls-login {
+   text-align: center
+}
+
+.login-user {
+    margin-left: 50px;
+    font-size: 20px
+}
+
+.login-senha {
+    margin-left: 50px;
+    font-size: 20px
+}
+
+#senha-log {
+    height: 15px;
+    width: 182px;
+    margin-top: 10px
+}
+
+.btn-entrar {
+   margin-top: 10px;    
+   margin-bottom: 20px;
+   margin-left: 239px
+}
+
+.login-esqueceu {
+   margin-left: 15px
+}
+
+.login-cadastre {
+    margin-left: 15px
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* pagina recadastrar senha */
+.senha {
+    background-color: #A9D18E;
+    border-width: 2px;
+    border-style:solid;
+    margin-top: 40px;
+    margin-right: 500px;
+    margin-bottom: 300px;
+    margin-left: 500px; 
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 90px    
+}
+
+.ls-login {
+   text-align: center
+}
+
+.redefinir-senha {
+    margin-left: 20px;
+    font-size: 20px
+}
+
+#senha-esq-red {
+    height: 15px;
+    width: 209px;
+    margin-top: 10px;
+  
+}
+
+
+#senha-esq {
+    height: 15px;
+    width: 115px;
+    margin-top: 10px;
+}
+
+#enviar_esqueceu{
+  background-color:darkgrey;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 198px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* cadastro autonomo */ 
+
+
+#aut {
+    background-color: #A9D18E;
+    border-width: 2px;
+    border-style:solid;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-bottom: 300px;
+    margin-left: 400px; 
+}
+
+
+
+#titulo-aut {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    
+}
+
+.aut_img_logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;    
+  margin-left: 30px   
+}
+
+#dados-aut {
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 25px
+}
+
+#arq-aut {
+ margin-top: -90px;    
+ margin-left: 100px;
+ width: 300px;
+}
+
+#cadastro_aut {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px
+}
+
+.aut_img {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 120px;
+  height: 120px;
+  border-width: 2px;
+  border-style:solid;      
+}  
+
+
+#cad_aut {
+    width: 380px
+}
+
+#nome-aut {
+    margin: 
+}
+
+#aut_cpf_cnpj {
+    float: left
+}
+
+#aut_tel {
+    float: right
+}
+
+#aut_email {
+    float: left
+}
+
+#aut_end {
+    float: right
+}
+
+#aut_num {
+    float: left
+}
+
+#aut_compl {
+    float: right
+}
+
+#aut_senha {
+    float: left
+}
+
+#rep_aut_senha {
+    float: right;
+}
+
+.content_esc {
+    margin-top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px    
+}
+
+#cad_esc {
+    width: 450px
+}
+
+#esc_cnpj {
+    float: left
+}
+
+#esc_end {
+    float: right;
+}
+
+#esc_num {
+    float: left
+}
+
+#esc_compl {
+    float: right;
+}
+
+#mais_escola {
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px   
+}
+
+#dados-aut-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 400px;  
+}
+
+.salvar_cad_aut {
+   margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px  
+}
+
+#salvar_cad_submit {
+ background-color:darkgrey;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 430px;
+}
+
+.link_login_cad {
+    text-align: center
+}
