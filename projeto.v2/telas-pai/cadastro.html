@@ -153,8 +153,11 @@
             </div>        	
             
             </br>
+            
+            
+            <div id="origem">
             <h4>+ Dependente</h4>
-
+            <form>
             <div class="border p-sm-3">
                 <div class="form-group">
                 <label for="inputName">Nome Completo</label>
@@ -188,15 +191,28 @@
                     </div>
                 </div>
                 
-                <div class="row form-group ml-sm-3 mb-sm-1">
-                    <button type="submit" class="btn btn-success">+ Dependente</button>
-                </div>  
+                
+                   <div id="mais_dependente">
+              <input type="reset" onclick="removerCampos(this);" value="Apagar Dependentes">
+              <input type='button' onclick="duplicarCampos();" value='+ Dependentes' id="dados-aut-button"/>
+              <br/> 
+              <div id="divTeste"> </div>
+            </div> 
+                     
             </div>
-            <div class="row form-group ml-sm-3 mt-sm-2">
-                <button type="submit" class="btn btn-success">Salvar</button>
-            </div>   
+            
         </form>
+        
+        <div id="destino">
+        </div>       
+     
+        </div>
+
+        <div class="row form-group ml-sm-3 mt-sm-2">
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </div>  
     </div>
+    </div>    
 
         <!-- adicionando mais escolas. Vide arquivo JS -->
         <script src="../js/script.js"></script>  
